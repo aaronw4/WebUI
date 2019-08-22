@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    background-color: #17223b;
+  }
+  
+html {
+    font-size: 62.5%;
+  }
+
+.navContainer {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navContainer a:hover {
+    background-color: #263859;
+    border-color: #263859
+}
+
+.logo {
+    font-family: 'Righteous', cursive;
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.btn {
+    background-color: #17223b;
+    border-color: #17223b;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 2rem;
+
+}
+
+#active {
+    text-decoration: underline;
+}
