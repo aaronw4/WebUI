@@ -211,3 +211,35 @@ img {
 #active {
   text-decoration: underline;
 }
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+  margin-top: 200px;
+}
+header h3 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+header img {
+  display: block;
+  height: auto;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+main h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 200px;
+}
+.describe {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 20px;
+}
