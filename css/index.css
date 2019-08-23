@@ -212,3 +212,132 @@ img {
 #active {
   text-decoration: underline;
 }
+.top-content {
+  display: flex;
+}
+#safetyHeader h1 {
+  color: white;
+  text-align: center;
+  font-size: 6rem;
+  margin-top: 200px;
+}
+@media (max-width: 500px) {
+  #safetyHeader h1 {
+    margin-top: 100px;
+    font-size: 5rem;
+  }
+}
+#safetyHeader h3 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+@media (max-width: 500px) {
+  #safetyHeader h3 {
+    font-size: 2.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+#safetyHeader img {
+  display: block;
+  height: auto;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+}
+@media (max-width: 500px) {
+  #safetyHeader img {
+    width: 80%;
+  }
+}
+#safetyMain h1 {
+  color: white;
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  #safetyMain h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+}
+.safetyDescribe {
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.guestContainer {
+  display: flex;
+  color: white;
+  margin-left: 20%;
+}
+@media (max-width: 500px) {
+  .guestContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+  }
+}
+.guestContainer h5 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.guestContainer p {
+  margin-left: 5px;
+  font-size: 2rem;
+}
+.guestContainer img {
+  height: auto;
+  width: 25%;
+}
+@media (max-width: 500px) {
+  .guestContainer img {
+    width: 80%;
+  }
+}
+.safetyTestimony {
+  margin-left: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+@media (max-width: 500px) {
+  .safetyTestimony {
+    flex-wrap: wrap;
+  }
+}
+#statement {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem;
+  width: 25%;
+  text-align: center;
+  padding-left: 10px;
+}
+@media (max-width: 500px) {
+  #statement {
+    width: 80%;
+  }
+}
+#safetyMain h3 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  #safetyMain h3 {
+    font-size: 2.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
