@@ -218,11 +218,24 @@ header h1 {
   font-size: 6rem;
   margin-top: 200px;
 }
+@media (max-width: 500px) {
+  header h1 {
+    margin-top: 100px;
+    font-size: 5rem;
+  }
+}
 header h3 {
   color: white;
   text-align: center;
   font-size: 3rem;
   margin-top: 50px;
+}
+@media (max-width: 500px) {
+  header h3 {
+    font-size: 2.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 header img {
   display: block;
@@ -232,6 +245,11 @@ header img {
   margin-left: auto;
   margin-top: 50px;
 }
+@media (max-width: 500px) {
+  header img {
+    width: 80%;
+  }
+}
 main h1 {
   color: white;
   text-align: center;
@@ -239,11 +257,17 @@ main h1 {
   margin-top: 150px;
   margin-bottom: 30px;
 }
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 3rem;
+    margin-top: 50px;
+  }
+}
 .describe {
   color: white;
   text-align: center;
   font-size: 2rem;
-  width: 50%;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -251,18 +275,31 @@ main h1 {
 .guestContainer {
   display: flex;
   color: white;
-  font-size: 2rem;
-  margin-left: 25%;
+  margin-left: 20%;
+}
+@media (max-width: 500px) {
+  .guestContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-wrap: wrap;
+  }
 }
 .guestContainer h5 {
+  font-size: 2rem;
   font-weight: bold;
 }
 .guestContainer p {
   margin-left: 5px;
+  font-size: 2rem;
 }
 .guestContainer img {
   height: auto;
   width: 25%;
+}
+@media (max-width: 500px) {
+  .guestContainer img {
+    width: 80%;
+  }
 }
 .testimony {
   margin-left: 0;
@@ -271,15 +308,33 @@ main h1 {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.statement {
+@media (max-width: 500px) {
+  .testimony {
+    flex-wrap: wrap;
+  }
+}
+#statement {
   font-family: 'Dancing Script', cursive;
-  font-size: 3rem;
+  font-size: 3.5rem;
   width: 25%;
   text-align: center;
+  padding-left: 10px;
+}
+@media (max-width: 500px) {
+  #statement {
+    width: 80%;
+  }
 }
 main h3 {
   color: white;
   text-align: center;
   font-size: 3rem;
   margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  main h3 {
+    font-size: 2.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
