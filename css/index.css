@@ -211,3 +211,6 @@ img {
 #active {
   text-decoration: underline;
 }
+.top-content {
+  display: flex;
+}
