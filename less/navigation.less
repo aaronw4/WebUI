@@ -1,0 +1,44 @@
+
+.navContainer {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    @media (max-width:500px) {
+        justify-content: space-around;
+    }
+}
+.navContainer a:hover {
+    background-color: #263859;
+    border-color: #263859
+}
+
+.logo {
+    font-family: 'Righteous', cursive;
+    font-size: 2.5rem;
+    color: white;
+    padding-top: 20px;
+    margin-left: 20px;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
+}
+
+.btn {
+    background-color: #17223b;
+    border-color: #17223b;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 2rem;
+
+    @media (max-width: 500px) {
+        margin-left: 0;
+    }
+
+}
+
+#active {
+    text-decoration: underline;
+}
