@@ -361,7 +361,7 @@ img {
 }
 #contactInfo {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 150px;
   margin-bottom: 50px;
 }
@@ -372,4 +372,14 @@ img {
 }
 #contactInfo p {
   font-size: 2rem;
+}
+#contactInfoLeft {
+  padding-right: 5%;
+}
+#contactInfoRight {
+  padding-left: 5%;
+}
+#contactInfoCenter {
+  height: 100%;
+  border-left: 1px solid white;
 }
