@@ -136,6 +136,7 @@ html,
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #17223b;
+  color: white;
 }
 h1,
 h2,
@@ -216,7 +217,6 @@ img {
   display: flex;
 }
 #safetyHeader h1 {
-  color: white;
   text-align: center;
   font-size: 6rem;
   margin-top: 200px;
@@ -228,7 +228,6 @@ img {
   }
 }
 #safetyHeader h3 {
-  color: white;
   text-align: center;
   font-size: 3rem;
   margin-top: 50px;
@@ -254,7 +253,6 @@ img {
   }
 }
 #safetyMain h1 {
-  color: white;
   text-align: center;
   font-size: 4rem;
   margin-top: 150px;
@@ -267,7 +265,6 @@ img {
   }
 }
 .safetyDescribe {
-  color: white;
   text-align: center;
   font-size: 2rem;
   width: 80%;
@@ -277,7 +274,6 @@ img {
 }
 .guestContainer {
   display: flex;
-  color: white;
   margin-left: 20%;
 }
 @media (max-width: 500px) {
@@ -329,7 +325,6 @@ img {
   }
 }
 #safetyMain h3 {
-  color: white;
   text-align: center;
   font-size: 3rem;
   margin-bottom: 10px;
@@ -340,4 +335,41 @@ img {
     padding-left: 5%;
     padding-right: 5%;
   }
+}
+#contactHeader h1 {
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 150px;
+}
+#contactAssist {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#contactAssist img {
+  display: block;
+  height: auto;
+  width: 25%;
+}
+#contactAssist ul {
+  padding-left: 5%;
+  padding-top: 5%;
+  font-size: 2.5rem;
+}
+#contactAssist li {
+  line-height: 2.5;
+}
+#contactInfo {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+#contactInfo h3 {
+  font-size: 3rem;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+#contactInfo p {
+  font-size: 2rem;
 }
