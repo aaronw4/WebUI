@@ -279,7 +279,7 @@ footer {
 }
 .guestContainer {
   display: flex;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 @media (max-width: 500px) {
   .guestContainer {
@@ -293,12 +293,13 @@ footer {
   font-weight: bold;
 }
 .guestContainer p {
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 2rem;
+  width: 70%;
 }
 .guestContainer img {
   height: auto;
-  width: 25%;
+  width: 30%;
 }
 @media (max-width: 500px) {
   .guestContainer img {
@@ -320,9 +321,10 @@ footer {
 #statement {
   font-family: 'Dancing Script', cursive;
   font-size: 3.5rem;
-  width: 25%;
+  width: 35%;
   text-align: center;
   padding-left: 10px;
+  padding-top: 30px;
 }
 @media (max-width: 500px) {
   #statement {
