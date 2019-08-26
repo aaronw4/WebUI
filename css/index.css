@@ -218,8 +218,61 @@ footer {
   margin-top: 100px;
   margin-bottom: 10px;
 }
+body {
+  width: 80%;
+  margin: 0 auto;
+}
 .top-content {
   display: flex;
+  border-bottom: 1px solid #6b778d;
+  padding-bottom: 2rem;
+}
+.top-content .intro {
+  display: flex;
+  flex-direction: column;
+}
+.top-content .intro img {
+  padding: 2rem 0;
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+}
+@media (max-width: 800px) {
+  .top-content .intro img {
+    width: 100%;
+    height: auto;
+  }
+}
+.top-content .intro h1 {
+  margin: 2rem 0;
+}
+.top-content .intro button#experience-button {
+  border: 1px solid white;
+  border-radius: 5px;
+  align-self: center;
+  margin-left: 0px;
+}
+.experiences {
+  display: block;
+  margin: 2rem;
+}
+.experiences h2 {
+  margin: 2rem 0;
+}
+.experiences .featured {
+  display: flex;
+  justify-content: space-evenly;
+}
+.experiences .featured .card {
+  background-color: #ff6768;
+}
+.experiences .featured .card .card-body a {
+  margin-left: 0px;
+}
+.experiences .featured .card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
 }
 #safetyHeader h1 {
   text-align: center;
