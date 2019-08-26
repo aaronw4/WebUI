@@ -1,6 +1,10 @@
 body {
     width: 80%;
     margin: 0 auto;
+
+    @media (max-width: 500px) {
+        width: 100%;
+    }
 }
 
 .top-content {
@@ -26,6 +30,16 @@ body {
 
         h1 {
             margin: 2rem 0;
+
+            @media (max-width: 500px) {
+                margin: 2rem 2rem;
+            }
+        }
+
+        p {
+            @media (max-width: 500px) {
+                margin: 0 2rem;
+            }
         }
 
         button#experience-button {
@@ -48,14 +62,28 @@ body {
 
     h2 {
         margin: 2rem 0;
+
+        @media (max-width: 500px) {
+            text-align: center;
+        }
     }
 
     .featured {
         display: flex;
         justify-content: space-evenly;
+
+        @media (max-width: 500px) {
+            flex-direction: column;
+            align-items: center;
+        }
         
         .card {
             background-color: @color4;
+            width: 18rem;
+
+            @media (max-width: 500px) {
+                margin: 2rem 0;
+            }
     
             .card-body a {
                 margin-left: 0px;
