@@ -255,6 +255,7 @@ body {
 @media (max-width: 500px) {
   .top-content .intro h1 {
     margin: 2rem 2rem;
+    text-align: center;
   }
 }
 @media (max-width: 500px) {
@@ -297,6 +298,7 @@ body {
 @media (max-width: 500px) {
   .experiences .featured .card {
     margin: 2rem 0;
+    width: 80%;
   }
 }
 .experiences .featured .card .card-body a {
