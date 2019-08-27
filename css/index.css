@@ -383,7 +383,7 @@ main {
 #safetyMain h1 {
   text-align: center;
   font-size: 4rem;
-  margin-top: 150px;
+  margin-top: 100px;
   margin-bottom: 30px;
 }
 @media (max-width: 500px) {
@@ -391,6 +391,15 @@ main {
     font-size: 3rem;
     margin-top: 50px;
   }
+}
+#safetyMain p {
+  margin-bottom: 50px;
+}
+#safetyBorder {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #6b778d;
 }
 .safetyDescribe {
   text-align: center;
@@ -563,7 +572,7 @@ main {
 }
 #contactInfoCenter {
   height: 100%;
-  border-left: 1px solid white;
+  border-left: 1px solid #6b778d;
 }
 @media (max-width: 500px) {
   #contactInfoCenter {
