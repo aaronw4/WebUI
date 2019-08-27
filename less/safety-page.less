@@ -24,12 +24,16 @@
 #safetyHeader img{
     display: block;
     height: auto;
-    width: 40%;
+    width: 60%;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
 
     @media (max-width: 500px) {
+        width:80%;
+    }
+
+    @media (max-width: 1000px) {
         width:80%;
     }
 }
@@ -78,7 +82,15 @@
 
     img {
         height: auto;
-        width:30%;
+        width:40%;
+
+        @media (max-width: 1200px) {
+            width: 50%;
+        }
+
+        @media (max-width: 1000px) {
+            width: 70%;
+        }
 
         @media (max-width: 500px) {
             width: 80%;
@@ -93,7 +105,7 @@
     margin-top: 50px;
     margin-bottom: 50px;
 
-    @media (max-width: 500px) {
+    @media (max-width: 1000px) {
         flex-wrap: wrap;
     }
 }
@@ -106,7 +118,7 @@
     padding-left: 10px;
     padding-top: 30px;
 
-    @media (max-width: 500px) {
+    @media (max-width: 1000px) {
         width: 80%;
     }
 }
