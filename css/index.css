@@ -206,6 +206,11 @@ img {
   margin-top: 20px;
   font-size: 2rem;
 }
+@media (max-width: 600px) {
+  .btn {
+    margin-left: 40px;
+  }
+}
 @media (max-width: 500px) {
   .btn {
     margin-left: 0;
@@ -219,12 +224,17 @@ footer {
   margin-top: 100px;
   margin-bottom: 10px;
 }
-body {
+main {
   width: 80%;
   margin: 0 auto;
 }
+@media (max-width: 1000px) {
+  main {
+    width: 90%;
+  }
+}
 @media (max-width: 500px) {
-  body {
+  main {
     width: 100%;
   }
 }
@@ -285,6 +295,11 @@ body {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 1000px) {
+  .experiences .featured {
+    justify-content: space-between;
+  }
+}
 @media (max-width: 500px) {
   .experiences .featured {
     flex-direction: column;
@@ -308,15 +323,6 @@ body {
   width: 100%;
   height: 20rem;
   object-fit: cover;
-}
-body {
-  width: 80%;
-  margin: 0 auto;
-}
-@media (max-width: 500px) {
-  body {
-    width: 100%;
-  }
 }
 .description {
   margin-top: 8rem;
@@ -370,12 +376,17 @@ body {
 #safetyHeader img {
   display: block;
   height: auto;
-  width: 40%;
+  width: 60%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 50px;
 }
 @media (max-width: 500px) {
+  #safetyHeader img {
+    width: 80%;
+  }
+}
+@media (max-width: 1000px) {
   #safetyHeader img {
     width: 80%;
   }
@@ -402,7 +413,7 @@ body {
 }
 .guestContainer {
   display: flex;
-  margin-left: 20%;
+  margin-left: 10%;
 }
 @media (max-width: 500px) {
   .guestContainer {
@@ -416,12 +427,23 @@ body {
   font-weight: bold;
 }
 .guestContainer p {
-  margin-left: 5px;
+  margin-left: 10px;
   font-size: 2rem;
+  width: 70%;
 }
 .guestContainer img {
   height: auto;
-  width: 25%;
+  width: 40%;
+}
+@media (max-width: 1200px) {
+  .guestContainer img {
+    width: 50%;
+  }
+}
+@media (max-width: 1000px) {
+  .guestContainer img {
+    width: 70%;
+  }
 }
 @media (max-width: 500px) {
   .guestContainer img {
@@ -435,7 +457,7 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   .safetyTestimony {
     flex-wrap: wrap;
   }
@@ -443,11 +465,12 @@ body {
 #statement {
   font-family: 'Dancing Script', cursive;
   font-size: 3.5rem;
-  width: 25%;
+  width: 35%;
   text-align: center;
   padding-left: 10px;
+  padding-top: 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
   #statement {
     width: 80%;
   }
@@ -489,6 +512,11 @@ body {
   display: block;
   height: auto;
   width: 25%;
+}
+@media (max-width: 1000px) {
+  #contactAssist img {
+    width: 35%;
+  }
 }
 @media (max-width: 500px) {
   #contactAssist img {
