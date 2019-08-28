@@ -330,14 +330,25 @@ main {
 .description h1 {
   margin: 2rem 0;
 }
-.team h2 {
+.team .teammates {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.team .card {
+  width: 20rem;
+  background-color: #ff6768;
+  font-size: 2rem;
   margin-top: 2rem;
 }
-.team .teammate {
-  margin: 2rem 0;
+.team .card img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
 }
-.team .teammate h3 {
-  font-size: 1.6rem;
+.team h2 {
+  margin-top: 2rem;
 }
 #safetyHeader h1 {
   text-align: center;
