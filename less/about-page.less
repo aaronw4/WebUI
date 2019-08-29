@@ -1,13 +1,42 @@
 
-.description {
-    margin-top: 8rem;
+main {
+    width: 80%;
+    margin: 0 auto;
 
-    h1 {
-        margin: 2rem 0;
+    @media (max-width:1000px) {
+        width:90%;
+    }
+
+    @media (max-width: 500px) {
+        width: 100%;
     }
 }
 
+.description {
+    margin-top: 8rem;
+
+    @media (max-width: 500px) {
+        margin: 0 2%;
+        margin-top: 8rem;
+    }
+
+    h1 {
+        margin: 2rem 0;
+
+        @media (max-width: 500px) {
+            text-align: center;
+        }
+    }
+
+}
+
 .team {
+
+    @media (max-width: 500px) {
+        h2 {
+            text-align: center;
+        }
+    }
 
     .teammates {
         display: flex;
