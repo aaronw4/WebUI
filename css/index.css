@@ -279,10 +279,6 @@ main {
   align-self: center;
   margin-left: 0px;
 }
-.top-content .intro button:hover {
-  background-color: #263859;
-  border-color: #263859;
-}
 .top-content .intro button#experience-button a {
   color: white;
 }
