@@ -227,6 +227,7 @@ footer {
 main {
   width: 80%;
   margin: 0 auto;
+  font-size: 1.6rem;
 }
 @media (max-width: 1000px) {
   main {
@@ -350,6 +351,7 @@ main {
 }
 .description {
   margin-top: 8rem;
+  border-bottom: 1px solid #6b778d;
 }
 @media (max-width: 500px) {
   .description {
